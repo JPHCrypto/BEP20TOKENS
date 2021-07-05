@@ -1,13 +1,14 @@
+/**
+ *Submitted for verification at BscScan.com on 2021-07-02
+*/
+
 // SPDX-License-Identifier: Unlicensed
 
 /**
-
    #JACKPOT
-
    3% fee auto add to the liquidity pool
    0% fee auto distribute to all holders
    7% fee auto moved to giveaway wallet
-
  */
 
 pragma solidity ^0.8.0;
@@ -773,7 +774,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract JPHToken is Context, IERC20, Ownable {
+contract JACKPOT is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
